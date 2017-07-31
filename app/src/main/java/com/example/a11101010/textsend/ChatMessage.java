@@ -18,6 +18,10 @@ public class ChatMessage
         this.messageTime = new Date().getTime();
     }
 
+    public ChatMessage(){
+
+    }
+
     public String getMessageText() {
         return messageText;
     }
